@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Properties\PublishProfiles\DotNetCoreSample20180820013401 - Web Deploy.pubxml" />
+    <None Remove="Properties\PublishProfiles\DotNetCoreSampleAzure - Web Deploy.pubxml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="System\Data\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
